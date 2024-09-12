@@ -1,0 +1,170 @@
+/* Estilo geral */
+body {
+  /* Define a família de fontes para todo o texto da página */
+  font-family: Bodo, serif faces;
+  /* Remove qualquer margem e preenchimento padrão do corpo da página */
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #251a2b;
+}
+
+/* Estilo do cabeçalho */
+header {
+  /* Define a cor de fundo do cabeçalho como cinza escuro */
+  background-color: #251a2b;
+  /* Define a cor do texto do cabeçalho como branco */
+  color: white;
+  /* Adiciona um preenchimento interno ao cabeçalho para espaçamento */
+  padding: 10px 0;
+  /* Centraliza o texto dentro do cabeçalho */
+  text-align: center;
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+  /* Remove os marcadores de lista (pontos) */
+  list-style-type: none;
+  /* Remove qualquer preenchimento interno da lista */
+  padding: 0;
+}
+
+nav ul li {
+  /* Define a exibição dos itens de lista como inline, para que eles fiquem em linha */
+  display: inline;
+  /* Adiciona uma margem entre os itens de navegação */
+  margin: 0 15px;
+}
+
+nav ul li a {
+  /* Define a cor dos links do menu como branco */
+  color: white;
+  /* Remove o sublinhado padrão dos links */
+  text-decoration: none;
+}
+
+/* Estilo ao passar o mouse sobre os links */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+
+  margin: 20px;
+}
+
+#home {
+  background: linear-gradient(#090802, #f40000, #090802);
+}
+
+#sobre {
+  background: linear-gradient(#090802, #7b0005, #090802);
+}
+#filmes {
+  background: linear-gradient(#090802, #7b0005, #090802);
+}
+
+.ted-bundy {
+  width: 20vw;
+  height: auto;
+}
+
+.ted-bundy > img {
+  width: 18vw;
+}
+
+footer > span {
+  font-size: 18px;
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: -10px;
+  color: rgb(134, 134, 134);
+}
+
+figure {
+  background-color: rgb(95, 28, 28);
+  border: 1px solid rgb(3, 3, 3);
+  padding: 10px;
+  margin: 2px;
+  width: 30vw;
+}
+
+figure > img {
+  width: 30vw;
+  height: auto;
+  margin: auto;
+}
+
+.img-texto{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 14px;
+  figcaption{
+    text-align: right: ;;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btk {
+    width: 20vw;
+    height: auto;
+  }
+  
+  .btk > img {
+    width: 18vw;
+  }
+
+  .nigth-stalker {
+    width: 20vw;
+    height: auto;
+  }
+  
+  .nigth-stalker > img {
+    width: 18vw;
+  }
+
+
+  .ripper {
+    width: 20vw;
+    height: auto;
+  }
+  
+  .ripper > img {
+    width: 18vw;
+  }
+
+  .fitas {
+    width: 20vw;
+    height: auto;
+  }
+  
+  .fitas > img {
+    width: 18vw;
+  }
+ock;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
